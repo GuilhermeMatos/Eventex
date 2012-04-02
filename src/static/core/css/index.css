@@ -1,0 +1,38 @@
+.logo{
+    width: 300px;
+    float: left;
+    padding-bottom: 10px;
+}
+.principal{
+    margin: 1em auto;
+    width: 850px;
+}
+.titulo{
+    margin-left: 360px;
+    padding-top: 50px;
+    font-size: 40px;
+}
+.conteudo{
+    font-size: 20px;
+    text-align: center;
+    border-top: 1px solid;
+}
+.contagem{
+    font-size: 25px;
+    color: #417690;
+}
+
+.byncsa{
+    width: 80px;
+    height: 15px;
+}
+
+.rodape{
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 1px solid;
+}
+
+.imgdjango{
+    float: right;
+}

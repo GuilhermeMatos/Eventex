@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}core/css/index.css" />
+    <title>EventeX</title>
+</head>
+<body>
+<div class="principal">
+    <img src="{{ STATIC_URL }}core/imagens/logo.png" class="logo"/>
+    <h1 class="titulo">Bem vindo ao EventeX!</h1>
+    <br clear="both"/>
+    <div class="conteudo">
+        {% block content %}
+        {% endblock content %}
+    </div>
+    {% include 'rodape.html' %}
+</div>
+</body>
+</html>
